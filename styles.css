@@ -1,0 +1,439 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333333; /* Dark gray for text */
+    background-color: #FFFFFF; /* White background */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background: ; /* Set a background color */
+    color: #333333; /* Dark gray for text */
+    padding: 15px 0; /* Corrected padding */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header .logo img {
+    height: 140px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333333; /* Dark gray for text */
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #666666; /* Gray for hover effect */
+}
+
+/* Hero Section */
+#hero {
+    background: #EAFAED; /* Primary color from palette */
+    padding: 100px 0;
+    text-align: center;
+    color: #666666;
+}
+
+#hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333333; /* Dark gray for text */
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #333333; /* Gray for secondary text */
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #333333; /* Dark gray for buttons */
+    color: #EAFAED; /* Light text for contrast */
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #666666; /* Gray for hover effect */
+}
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid #333333; /* Dark gray for outline */
+    color: #333333; /* Dark gray for text */
+}
+
+.btn-outline:hover {
+    background: #333333; /* Dark gray for hover */
+    color: #EAFAED; /* Light text for contrast */
+}
+
+/* Footer Section */
+footer {
+    background: #333333; /* Dark gray for footer */
+    color: #EAFAED; /* Light text for contrast */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header .logo img {
+        height: 100px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    #hero {
+        padding: 60px 0;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Trade & Exchange Section */
+#trade {
+    background: #FFFFFF; /* White background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+#trade h2 {
+    font-size: 2rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 40px;
+}
+
+.trade-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.trade-card {
+    background: #EAFAED; /* Primary color for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.trade-card h3 {
+    font-size: 1.5rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 20px;
+}
+
+.trade-card p {
+    font-size: 1rem;
+    color: #666666; /* Gray for text */
+    margin-bottom: 20px;
+}
+
+.trade-card .btn {
+    background: #333333; /* Dark gray for buttons */
+    color: #EAFAED; /* Light text for contrast */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.trade-card .btn:hover {
+    background: #666666; /* Gray for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .trade-content {
+        flex-direction: column;
+    }
+
+    .trade-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Secure Exchanges Section */
+#secure-exchanges {
+    background: #EAFAED; /* Primary color for background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+#secure-exchanges h2 {
+    font-size: 2rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 40px;
+}
+
+.secure-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.secure-card {
+    background: #FFFFFF; /* White background for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.secure-card h3 {
+    font-size: 1.5rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 15px;
+}
+
+.secure-card p {
+    font-size: 1rem;
+    color: #666666; /* Gray for text */
+    margin-bottom: 20px;
+}
+
+.secure-card .btn {
+    background: #333333; /* Dark gray for buttons */
+    color: #EAFAED; /* Light text for contrast */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.secure-card .btn:hover {
+    background: #666666; /* Gray for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .secure-content {
+        flex-direction: column;
+    }
+
+    .secure-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Recover Valuables Section */
+#recover-valuables {
+    background: #FFFFFF; /* White background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+#recover-valuables h2 {
+    font-size: 2rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 40px;
+}
+
+.recover-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.recover-card {
+    background: #EAFAED; /* Primary color for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.recover-card h3 {
+    font-size: 1.5rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 15px;
+}
+
+.recover-card p {
+    font-size: 1rem;
+    color: #666666; /* Gray for text */
+    margin-bottom: 20px;
+}
+
+.recover-card .btn {
+    background: #333333; /* Dark gray for buttons */
+    color: #EAFAED; /* Light text for contrast */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.recover-card .btn:hover {
+    background: #666666; /* Gray for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .recover-content {
+        flex-direction: column;
+    }
+
+    .recover-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Item Reunification Section */
+#item-reunification {
+    background: #EAFAED; /* Primary color for background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+#item-reunification h2 {
+    font-size: 2rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 40px;
+}
+
+.reunification-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.reunification-card {
+    background: #FFFFFF; /* White background for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.reunification-card h3 {
+    font-size: 1.5rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 15px;
+}
+
+.reunification-card p {
+    font-size: 1rem;
+    color: #666666; /* Gray for text */
+    margin-bottom: 20px;
+}
+
+.reunification-card .btn {
+    background: #333333; /* Dark gray for buttons */
+    color: #EAFAED; /* Light text for contrast */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.reunification-card .btn:hover {
+    background: #666666; /* Gray for hover effect */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .reunification-content {
+        flex-direction: column;
+    }
+
+    .reunification-card {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Skills Exchange Section */
+#skills-exchange {
+    background: #FFFFFF; /* White background */
+    padding: 80px 0;
+    text-align: center;
+}
+
+#skills-exchange h2 {
+    font-size: 2rem;
+    color: #333333; /* Dark gray for headings */
+    margin-bottom: 40px;
+}
+
+.skills-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.skills-card {
+    background: #EAFAED; /* Primary color for cards */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.skills-card h3 {
+    font-size: 1.5rem;
+    color: #333333; /* Dark gray for headings */
+
+Cancel
+Blackbox Base
